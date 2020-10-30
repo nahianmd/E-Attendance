@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/login_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.sign{
+    width: 320px;
+    height: 600px;
+    box-shadow: 0 0 10px 2px grey;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.9);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate();
+
+}
+
+#error-php{
+    position: absolute;
+    top:15px;
+    height: 15px;
+    left: 0;
+    /*border: 1px solid;*/
+    width: 320px;
+}
+
+.error-text{
+    margin: 0;
+    /*padding: 0 0 50px;*/
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    color: #E32468;
+    /*border: 1px solid;*/
+}
+
+.error-js{
+    /*border: 1px solid;*/
+    height: 10px;
+    position: absolute;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    color: #E32468;
+}
+
+#error-user{
+    top:193px;
+}
+#error-mail{
+    top:256px;
+}
+#error-phone{
+    top:319px;
+}
+#error-pass{
+    top:382px;
+}
+#error-repass{
+    top:444px;
+}
+
+#title{
+    margin: 0;
+    padding: 0 0 50px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-stretch: normal;
+}
+
+.sign input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sign input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #2C3640;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #2F2F2F;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-stretch: expanded;
+    z-index: 1;
+}
+.sign input[type="submit"]
+{
+    border: 0.5px solid;
+    outline: none;
+    height: 40px;
+    background: transparent;
+    color: #2C3640;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-stretch: expanded;
+    border-radius: 20px;
+}
+.sign input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #2C3640;
+    color: #FFFFFF;
+    transition: 0.6s ease;
+}
+
+.sign input[type="reset"]
+{
+    border: 0.5px solid;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #2C3640;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-stretch: expanded;
+    height: 20px;
+    width: 45px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.sign input[type="reset"]:hover
+{
+    cursor: pointer;
+    /*background: #2C3640;*/
+    color: #E32468;
+}
+.remember{
+    font-family: "Raleway", sans-serif; 
+    font-size: 12px;
+    color: #2C3640;
+}
+.remember input[type="checkbox"]{
+    height: 0;
+    width: 0;
+    font-family: "Raleway", sans-serif; 
+    font-size: 12px;
+    color: #2C3640;
+    margin-top: 19px;
+    background-color: #E32468;
+}
+
+#forgot a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif; 
+    font-size: 12px;
+    color: #2C3640;
+}
+
+#forgot a:hover
+{
+    color: #E32468;
+    transition: 0.6s ease;
+}
+
+#forgot{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#remember{
+    height: 0;
+    width: 0;
+    font-family: "Raleway", sans-serif; 
+    font-size: 12px;
+    color: #2C3640;
+    margin-top: 19px;
+    background-color: #E32468;
+}
+
+#signUp{
+    font-family: "Raleway", sans-serif; 
+    font-size: 12px;
+    margin-top: 90px;
+}
+
+#signUp a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #E32468;
+}
+#signUp a:hover
+{
+    text-decoration: underline;
+}
+
+#signIn{
+    font-family: "Raleway", sans-serif; 
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#signIn a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #E32468;
+}
+#signIn a:hover
+{
+    text-decoration: underline;
+}
+
+
+#home{
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+#home a{
+    text-decoration: none;
+    background:transparent;
+    border: 1px solid #fff;
+    border-color: #fff;
+    color: #fff;
+    height: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+
+}
+
+#home a:hover
+{
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #E32468;
+    border-color: #E32468;
+    transition: 0.6s ease;
+}
+
+#success-message{
+    font-family: "Raleway", sans-serif; 
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+    transition: width 0.6s ease;
+}
+
+#success-message p{
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 20px 0;
+}
+
+#success-message #wait{
+    border: 0px solid #000;
+    margin-top:50px; 
+    padding: 20px 0;
+}
+
+#loading{
+    position: absolute;
+    width: auto;
+    top: 300px;
+    left: 55px;
+    /*border:1px solid #000;*/
+}
+#loadimage{
+    /*border:1px solid blue;*/
+    height: 200px;
+    width: auto;
+    align-content: center;
+}
